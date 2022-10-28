@@ -16,7 +16,7 @@ Out<<"Hello my name is Ashwaq!"<<endl; //Out acts like a cout, but it will be di
 Out.close( ); //It is important to close the files to avoid any bugs
 
 
-
+//This will print out in a separate file called out.txt: Hello my name is Ashwaq!
 
 
 
