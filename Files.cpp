@@ -19,7 +19,7 @@ Out.open("out.txt",ios::app); //app will add to our file that we created
 if(Out.is_open())
 {
   
-  Out<<"Nice to meet you!!"<<endl;
+  Out<<"Nice to meet you!!"<<endl; //this statement will print out to the file in addition 
   Out.close();
   
   
