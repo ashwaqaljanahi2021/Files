@@ -1,0 +1,27 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+ifstream Input; //this will allow me to read a file, but I must know the path to the file or the exact name
+int num; //this will print out the numbers from the output file
+
+Input.open("Users/Documents/out.txt"); //This is an example of how an reading file is open with a path, for windows you must add a double slash
+if(Input.is_open())
+{
+while(Input)
+{
+Input>>num; //this will get the int numbers. 
+
+
+}
+
+cout<<num<<endl; //this will print out the file into the console from the file.
+
+}
+
+Input.close();
+
+}
