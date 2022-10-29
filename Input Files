@@ -13,15 +13,15 @@ if(Input.is_open())
 {
 while(Input)
 {
-Input>>num; //this will get the int numbers. 
+Input>>num; //this will get the numbers from the file we are reading. 
 
 
 }
 
-cout<<num<<endl; //this will print out the file into the console from the file.
+cout<<num<<endl; //this will print out the information being read into the console from the file.
 
 }
 
-Input.close();
+Input.close();//must close file to avoid any bugs. 
 
 }
